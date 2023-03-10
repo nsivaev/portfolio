@@ -15,11 +15,11 @@ section {
 }
 
 .left_pos {
-  width: 27.5%;
+  width: 15.5%;
 }
 
 .right_pos {
-  width: 53.5%;
+  width: 65.5%;
 }
 
 
@@ -31,7 +31,7 @@ section {
 
 .header {
   justify-content: space-between;
-  padding-bottom: 150px;
+  padding-bottom: 145px;
 }
 
 .list_menu {
@@ -58,10 +58,11 @@ section {
 //intro
 .intro{
   justify-content: space-between;
+  padding-bottom: 100px;
   .left_pos {
     img {
-      width: 80%;
-      height: 80%;
+      width: calc(112px + 10.5vw);
+      height: calc(177px + 10.5vw);
       object-fit: cover;
       border-radius: 15px;
     }
@@ -70,6 +71,8 @@ section {
     p {
     font-family: Nagel, serif;
       font-size: 45px;
+      line-height: 42.75px;
+      letter-spacing: 2.5px;
       span {
         color: #FF9A22;
       }
@@ -78,3 +81,64 @@ section {
 }
 
 
+//about me
+.about_me {
+  justify-content: space-between;
+  padding-bottom: 160px;
+  .left_pos {
+    .about_me__header {
+      font-family: Golos, serif;
+      font-weight: 500;
+    }
+  }
+  .right_pos {
+    .about_me__text-info {
+      font-family: Golos, serif;
+      font-weight: 400;
+      line-height: 16px;
+    }
+  }
+}
+
+//skills
+.skills {
+  justify-content: space-between;
+  padding-bottom: 160px;
+
+  .left_pos {
+    .skills__header {
+      font-family: Golos, serif;
+      font-weight: 500;
+    }
+  }
+
+  .right_pos {
+    .container-box {
+      display: flex;
+
+      .dabble_box:last-child {
+        margin-right: 0;
+      }
+      .dabble_box {
+        margin-right: 20px;
+      }
+    }
+  }
+  .box {
+    width: calc(0px + 12.2vw);
+    height: calc(0px + 12.2vw);
+    background-color: #9CB1FF;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    p {
+      color: white;
+      font-family: Golos, serif;
+      font-weight: 600;
+      margin: 0;
+    }
+  }
+}
