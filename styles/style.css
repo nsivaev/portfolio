@@ -1,12 +1,11 @@
 @font-face {
   font-family: Golos;
-  src: url('./assest/fonts/golos-text_vf.woff') format('woff');
+  src: url("../assest/fonts/golos-text_vf.woff");
 }
 @font-face {
   font-family: Nagel;
-  src: url('./assest/fonts/Nagel_Medium.woff') format('woff');
+  src: url("../assest/fonts/Nagel_Medium.woff");
 }
-
 * {
   margin: 0;
   padding: 0;
