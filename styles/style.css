@@ -1,10 +1,10 @@
 @font-face {
   font-family: Golos;
-  src: url('golos-text_vf.woff') format('woff');
+  src: url('./assest/fonts/golos-text_vf.woff') format('woff');
 }
 @font-face {
   font-family: Nagel;
-  src: url('Nagel_Medium.woff') format('woff');
+  src: url('./assest/fonts/Nagel_Medium.woff') format('woff');
 }
 
 * {
